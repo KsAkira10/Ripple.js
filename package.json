@@ -1,11 +1,12 @@
 {
-  "name": "Ripple.js",
+  "name": "@ksakira10/ripplejs",
   "author": "Jacob Kelley",
   "version": "1.2.1",
   "types": "./src/ripple.d.ts",
+  "main": "dist/ripple.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakiestfu/Ripple.js.git"
+    "url": "https://github.com/KsAkira10/Ripple.js.git"
   },
   "scripts": {
     "bower": "./node_modules/bower/bin/bower install",
@@ -20,6 +21,10 @@
     "grunt-contrib-cssmin": "0.10.0",
     "grunt-contrib-jshint": "0.8.0",
     "grunt-contrib-uglify": "0.2.5",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt-contrib-watch": "~0.5.3",
+    "bootstrap": "~3.3.2"
+  },
+  "dependencies": {
+    "jquery": "~2.1.3"
   }
 }
