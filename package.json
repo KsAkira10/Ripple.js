@@ -2,6 +2,7 @@
   "name": "@ksakira10/ripplejs",
   "author": "Jacob Kelley",
   "version": "1.2.1",
+  "main": "dist/ripple.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/KsAkira10/Ripple.js.git"
